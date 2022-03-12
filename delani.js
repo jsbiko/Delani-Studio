@@ -18,3 +18,87 @@ $("button").click(function(event){
     }
 
 })
+
+// Ready
+
+$(document).ready(function(){
+    $("#design").click(function(){
+        $("#show").toggle();
+        $("#hide").toggle();
+    $("hide").click(function(){
+        $("#show").toggle();
+        $("#hide").toggle();
+    })
+    });
+
+    $("development").click(function(){
+        $("#dev-show").toggle();
+        $("#dev-hide").toggle();
+    });
+
+    $("#product").click(function(){
+        $("#product-show").toggle();
+        $("#product-hide").toggle();
+    })
+
+
+    //mouse over
+    $(document).ready(function(){
+        $("work1").mouseover(function(){
+                $("#label1").show();
+        }).mouseout(function(){
+            $("#label1").hide();
+        });
+
+
+        $("work2").mouseover(function(){
+            $("#label2").show();
+        }).mouseout(function(){
+            $("#label2").hide();
+        })
+
+
+        $("work3").mouseover(function(){
+            $("#label3").show();
+        }).mouseout(function(){
+            $("#label3").hide();
+        })
+
+
+        $("work4").mouseover(function(){
+            $("#label4").show();
+        }).mouseout(function(){
+            $("#label4").hide();
+        })
+
+
+        $("work5").mouseover(function(){
+            $("#label5").show();
+        }).mouseout(function(){
+            $("#label5").hide();
+        })
+
+
+        $("work6").mouseover(function(){
+            $("#label6").show();
+        }).mouseout(function(){
+            $("#label6").hide();
+        })
+
+
+        $("work7").mouseover(function(){
+            $("#label7").show();
+        }).mouseout(function(){
+            $("#label7").hide();
+        })
+
+
+        $("work8").mouseover(function(){
+            $("#label8").show();
+        }).mouseout(function(){
+            $("#label8").hide();
+        })
+
+    });
+
+})
