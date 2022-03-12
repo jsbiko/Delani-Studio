@@ -1,6 +1,11 @@
-*{}
+
 #welcome {
-    background-image: url("../assets/background/h_img.jpg");
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    color: white;
+    background-size: cover;
+    height: 90vh;
+    align-items: center;
+    position: relative;
 }
 
 #welcome1 {
@@ -13,4 +18,20 @@
     margin: auto;
     justify-content: center;
     text-align: center;
+}
+
+#mouse {
+    margin-top: 27%;
+}
+
+.about {
+    height: 30vh;
+    text-align: center;
+    justify-content: center;
+    padding: 2%;
+    font-size: 65%;
+}
+
+.about1 {
+    margin: auto;
 }
