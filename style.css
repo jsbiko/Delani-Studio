@@ -28,9 +28,9 @@ h3 {
     font-weight: bolder;
 }
 
-.about {
-    height: 30vh;
+.about{
     text-align: center;
+    height: 30vh;
     justify-content: center;
     padding: 2%;
     font-size: 65%;
