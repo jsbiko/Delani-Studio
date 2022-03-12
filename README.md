@@ -1,4 +1,5 @@
 # Delani-Studio
+
 ####
 
 Delani Studio is a fictional studio build in HTML, CSS, JavaScript, Bootstrap and jQuery. In this project, I have created a landing page for our fictional studio
@@ -10,6 +11,7 @@ Steve Biko
 ## Version
 
  V1.0
+
 ## Input features
 
 What you will input include;
@@ -23,6 +25,7 @@ What you will input include;
 Not required. All you have to do is visit the linked Github page link <https://jsbiko.github.io/Delani-Studio//>
 
 ## Known Bugs
+
 None for now
 
 ## Technologies Used
@@ -34,6 +37,7 @@ None for now
 * bootstrap
 
 ## License
+
 #### *MIT License
 
 The MIT License
