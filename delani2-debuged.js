@@ -2,13 +2,13 @@ $(document).ready(function(){
     $("#design").click(function(){
         $("#show").toggle();
         $("#hide").toggle();
-    $("hide").click(function(){
+    $("#hide").click(function(){
         $("#show").toggle();
         $("#hide").toggle();
     })
     });
 
-    $("development").click(function(){
+    $("#development").click(function(){
         $("#dev-show").toggle();
         $("#dev-hide").toggle();
     });
@@ -21,49 +21,49 @@ $(document).ready(function(){
 
     //mouse over
     $(document).ready(function(){
-        $("work1").mouseover(function(){
+        $("#work1").mouseover(function(){
             $("#label1").show();
         }).mouseout(function(){
             $("#label1").hide();
         });
-
-        $("work2").mouseover(function(){
+        
+        $("#work2").mouseover(function(){
             $("#label2").show();
         }).mouseout(function(){
             $("#label2").hide();
         })
 
-        $("work3").mouseover(function(){
+        $("#work3").mouseover(function(){
             $("#label3").show();
         }).mouseout(function(){
             $("#label3").hide()
         })
 
-        $("work4").mouseover(function(){
+        $("#work4").mouseover(function(){
             $("#label4").show();
         }).mouseout(function(){
             $("#label4").hide();
         })
 
-        $("work5").mouseover(function(){
+        $("#work5").mouseover(function(){
             $("#label5").show();
         }).mouseout(function(){
             $("#label5").hide();
         })
 
-        $("work6").mouseover(function(){
+        $("#work6").mouseover(function(){
             $("#label6").show();
         }).mouseout(function(){
             $("#label6").hide();
         })
 
-        $("work7").mouseover(function(){
+        $("#work7").mouseover(function(){
             $("#label7").show();
         }).mouseout(function(){
             $("#label7").hide();
         })
 
-        $("work8").mouseover(function(){
+        $("#work8").mouseover(function(){
             $("#label8").show();
         }).mouseout(function(){
             $("#label8").hide();
@@ -72,7 +72,7 @@ $(document).ready(function(){
 
 
 
-    // BUSINESS LOGIC 
+        //business logic
     $("button").click(function(event){
         event.preventDefault()
         let userName = document.getElementById("userName").value;
@@ -80,24 +80,24 @@ $(document).ready(function(){
         let message = document.getElementById("message");
 
         if(userName === ""){
-        alert("Please enter your username");
-    }
+            alert("Please insert your name");
+        }
         else if(userEmail === ""){
-        alert("Please enter your email address");
-    }
-        else if(message === ""){
-        alert("Please type your message")
-    }
-        else {
-        alert("Dear" + userName + " ,thank you for reaching out to Delani Studio. We will get back to you on "+ userEmail+ " the earliest time possible/")
-    }
+            alert("Please insert your email")
+        }
+        else if( message === ""){
+            alert("Please type your message.")
 
-  
-   
+        }
+        else{
+            alert("Dear " + userName + " ,thank you for reaching out. We will get back to you on "+ userEmail+ " incase we have feedback for you/")  
+        }
+
+
+
 
 
     })
-
 
 
 
